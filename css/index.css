@@ -1,0 +1,359 @@
+.nav .dropdown .dd{
+  display: block;
+}
+.main{
+  padding: 10px 0 10px 219px;
+  overflow: hidden;
+}
+/* 焦点图 focus */
+.main .focus{
+  float: left;
+  height: 455px;
+  width: 721px;
+}
+.main .focus img{
+  height: 455px;
+  vertical-align: bottom;
+}
+/* 新闻区域 */
+.main .newflash{
+  float: right  ;
+  width: 250px;
+}
+/* 新闻 news */
+.newflash .news{
+  padding-top: 10px;
+  border: 1px solid #e4e4e4;
+}
+/* 新闻头部 news_title*/
+.news .news_title{
+  overflow: hidden;
+  padding: 0 16px 7px;
+  border-bottom: 1px dotted #e8e8e7 ;
+}
+.news_title h4{
+  float: left;
+}
+.news_title .news_more{
+  float: right;
+}
+/* 新闻列表 news_list */
+.news_list{
+  padding: 4px 16px;
+}
+.news_list ul li{
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.news_list ul li strong{
+  margin-right: 5px;
+}
+/* 生活服务 life_server */
+.newflash .life_server{
+  height: 210px;
+  border-left: 1px solid #e4e4e4;
+}
+.life_server ul li{
+  float: left;
+  width: 62px;
+  height: 70px;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+.life_server ul li:nth-child(4n){
+  width: 63px;
+}
+.life_server ul li a{
+  display: block;
+  height: 70px;
+  text-align: center;
+  padding-top: 14px;
+}
+.life_server ul li a i{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto 10px;
+  background: url(../images/icons.png)-17px -16px;
+}
+.bargain{
+  height: 75px;
+  margin-top: 5px;
+}
+/* 今日推荐 */
+.recom{
+  position: relative;;
+  height: 163px;
+  overflow: hidden;
+}
+.recom dl dt{
+  float: left;
+  width: 206px;
+  height: 163px;
+  text-align: center;
+  line-height: 163px;
+  background-color: #5c5251;
+}
+.recom dl dd{
+  float: left;
+  width: 248px;
+  height: 163px;
+}
+.recom dl dd:nth-child(2n){
+  width: 249px;
+}
+.recom dl dd:nth-child(2n) img{
+  width: 249px;
+}
+.recom dl dd:not(:last-child)::after{
+  position: absolute;
+  top: 10px;
+  content: '';
+  width: 1px;
+  height: 143px;
+  background-color: #dddddd;
+}
+/* 猜你喜欢标题 my_like_t */
+.my_like_t{
+  /* overflow: hidden; */
+  margin-top: 30px;
+  height: 28px;
+}
+.my_like_t .fl{
+  font-size: 18px;
+}
+.my_like_t .fr{
+  font-size: 12px;
+}
+.my_like_t .fr a::after{
+  content: '\ea2e';
+  font-family: 'icomoon';
+  margin: 0 20px 0 5px;
+}
+/* 猜你喜欢 my_like*/
+.my_like{
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+}
+.my_like ul li{
+  float: left;
+}
+.my_like ul li a{
+  display: block;
+  width: 200px;
+  height: 233px;
+  /* text-align: center; */
+}
+.my_like ul li a .like_price{
+  width: 100%;
+  padding: 0 32px;
+  font-size: 12px;
+  line-height: 18px;
+  border-right: 1px solid #e4e4e4;
+}
+.my_like ul li:last-child{
+  width: 198px;
+}
+
+.my_like ul li a .like_price p{
+  margin-bottom: 5px;
+}
+.my_like ul li:last-child a .like_price{
+  border: 0;
+}
+.my_like ul li a .like_price strong{
+  color: #df3033;
+  font-size: 18px;
+}
+.my_like ul li a .like_price strong i{
+  font-size: 14px;
+}
+/* 有趣区 */
+.funny{
+  margin-top: 30px;
+  overflow: hidden;
+}
+.funny h3{
+  color: 333;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.funny .funny_bd{
+  height: 407px;
+  border: 1px solid #ededed;
+  border-left:0;
+}
+.funny_bd .good_books{
+  float: left;
+}
+.funny_bd .good_books a img {
+  width: 404px;
+  height: 405px;
+}
+.funny_bd .good_things{
+  float: left;
+}
+.funny_bd .good_things dl dt{
+  height: 39px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 39px;
+  border-bottom: 1px solid #ededed;
+}
+.funny_bd .good_things dl dd:nth-child(2){
+  border-bottom: 1px solid #ededed;
+}
+.funny_bd .good_things dl dd:nth-child(2) a img{
+  width: 225px;
+  height: 205px;
+}
+.funny_bd .good_things dl dd:nth-child(3) a img{
+  width: 225px;
+  height: 160px;
+}
+.funny_bd .good_brand{
+  float: left;
+  overflow: hidden;
+  height: 405px;
+  background-color: #f7f7f7;
+  border-left: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+}
+.funny_bd .good_brand dl dt{
+  height: 39px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 39px;
+  border-bottom: 1px solid #ededed;
+}
+.funny_bd .good_brand dl dd:nth-child(2){
+  border-bottom: 1px solid #ededed;
+}
+.funny_bd .good_brand dl dd:nth-child(2) a img{
+  width: 404px;
+  height: 205px;
+}
+.funny_bd .good_brand dl dd:nth-child(3) a:nth-child(1) img{
+  width: 202px;
+  height: 157px;
+}
+.funny_bd .good_brand dl dd:nth-child(3) a:nth-child(2) img{
+  width: 202px;
+  height: 158px;
+}
+.funny_bd .good_brands{
+  float: right;
+  height: 405px;
+  width: 160px;
+}
+.funny_bd .good_brands a img{
+  width: 160px;
+  height: 405px;
+}
+/* 楼层 floos  */
+
+/* 楼层1 flool1 家用电器  */
+.floor_hd{
+  height: 30px;
+  line-height: 30px;
+  margin-top: 30px;
+  border-bottom: 2px solid #c81623;
+}
+.floor_hd h3{
+  color: #c81623;
+  font-size: 18px;
+}
+.floor_hd ul li{
+  float: left;
+}
+.floor_hd ul li a{
+  margin: 0 14px;
+}
+.floor_bd{
+  height: 360px;
+  border: 1px solid #ededed;
+  border-top: none;
+}
+.floor_bd .col_210{
+  float: left;
+  width: 210px;
+  height: 359px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.col_210 ul{
+  height: 100px;
+  padding: 10px 12px 0 12px;
+  margin-bottom: 15px;
+}
+.col_210 ul li{
+  float: left;
+  width: 86px;
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px solid #ededed;
+}
+.col_210 ul li:nth-child(2n){
+  margin-left: 12px;
+}
+.col_210>a img{
+  width: 187px;
+  height: 227px;
+}
+.floor_bd .col_329{
+  float: left;
+  width: 329px;
+}
+.floor_bd .col_329 a img{
+  width: 329px;
+  height: 359px;
+}
+.floor_bd .col_219{
+  float: left;
+  width: 219px;
+  height: 359px;
+}
+.floor_bd .col_219 ul li:nth-child(1){
+  border: 1px solid #ededed;
+}
+.floor_bd .col_219 ul li:nth-child(1) a img{
+  width: 219px;
+  height: 179px;
+}
+.floor_bd .col_219 ul li:nth-child(2) a img{
+  width: 219px;
+  height: 178px;
+}
+.floor_bd .col_222{
+  float: left;
+  width: 222px;
+  border-left: 1px solid #ededed ;
+  border-right: 1px solid #ededed;
+}
+.floor_bd .col_222 a img{
+  width: 220px;
+  height: 359px;
+}
+.floor_bd .col_219_2{
+  float: right;
+  height: 359px;
+  width: 217px;
+}
+.floor_bd .col_219_2 ul li:nth-child(1){
+  border-bottom: 1px solid #ededed;
+}
+.floor_bd .col_219_2 ul li:nth-child(1) a img{
+  width: 217px;
+  height: 180px ;
+}
+.floor_bd .col_219_2 ul li:nth-child(2) a img{
+  width: 217px;
+  height: 178px;
+}

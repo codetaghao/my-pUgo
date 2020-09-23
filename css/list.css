@@ -1,0 +1,82 @@
+/* logo */
+.header .logo h1 a{
+  background: url(../images/logo2.png) no-repeat;
+}
+/* 导航菜单 */
+.nav_item ul li:nth-child(n + 4) a{
+  font-size: 14px;
+}
+/* 商品列表list */
+.list{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.list .list_header{
+  height: 120px;
+  background: url(../upload/bg_03.png) no-repeat;
+}
+.list .list_body ul li{
+  float: left;
+  width: 290px;
+  height: 458px;
+  margin-right: 13px;
+  border: 1px solid transparent;
+}
+.list .list_body ul li:nth-child(4n){
+  margin: 0;
+}
+.list .list_body ul li:hover{
+  border: 1px solid #b1191a;
+}
+.list .list_body ul li p{
+  font-size: 14px;
+  padding: 0 12px;
+}
+.list .list_body ul li p strong{
+  color: #e60012;
+  font-size: 22px;
+}
+.list .list_body ul li p del{
+  color: #a4a4a4;
+  font-size: 14px;
+}
+.list_body .sell{
+  position: relative;
+  height: 42px;
+  padding: 0 12px;
+}
+.sell .sell_bar{
+  position: absolute;
+  bottom: 14px;
+  left: 73px;
+  height: 13px;
+  width: 133px;
+  border-radius: 5px;
+  border: 1px solid #e12228;
+  overflow: hidden;
+}
+.sell .sell_bar .sell_inner{
+  width: 121px;
+  height: 13px;
+  background-color: #ed282e;
+}
+.sell::before{
+  position: absolute;
+  left: 12px;
+  bottom: 14px;
+  content: '已售87%';
+}
+.sell::after{
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+  content: '剩余29件';
+}
+.list_body .btn{
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #b1191a;
+}

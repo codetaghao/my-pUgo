@@ -1,0 +1,133 @@
+/* 注册头部 */
+.reg_header{
+  height: 84px;
+  padding-top: 16px;
+  border-bottom: 2px solid #b1191a;
+}
+.reg_header h1{
+  height: 82px;
+  font-size: 0;
+  background: url(../images/logo3.png) no-repeat;
+}
+/* 注册表单 */
+.register{
+  height: 522px;
+  margin-top: 21px;
+  border: 1px solid #dfdfdf;
+}
+.register_tb{
+  height: 41px;
+  line-height: 40px;
+  padding:  0 10px;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #ededed;
+}
+.register_tb h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.register_tb .fr{
+  font-size: 14px;
+}
+.register_bd{
+  font-size: 14px;
+  padding-top: 54px;
+}
+.register_form{
+  width: 600px;
+  height: 370px;
+  margin: 0 auto;
+}
+.register_form input[type=text],.register_bd input[type=password]{
+  width: 240px;
+  height: 36px;
+  
+  
+  /* margin: 0 9px 20px; */
+  border: 1px solid #999999;
+}
+.register_form label{
+  display: inline-block;
+  width: 87px;
+  text-align: right;
+  margin-right: 9px ;
+}
+.register_form>li{
+  margin-bottom: 20px;
+}
+.register_form li span{
+  padding-left: 10px;
+}
+.register_form .safe{
+  overflow: hidden;
+  
+  margin: 10px 0 0 168px;
+}
+.register_form .safe ul li{
+  float: left;
+  height: 13px;
+  font-size: 12px;
+  line-height: 13px;
+}
+.register_form .safe ul li:nth-child(1){
+  color: #b2b2b2;
+  margin-right: 10px;
+}
+.register_form .safe ul li:nth-child(n+2){
+  color: #fff;
+  width: 34px;
+  
+  text-align: center;
+  background: #de1111;
+  margin-left: 1px;
+}
+.register_form .safe ul li:nth-child(3){
+  background: #40b83f;
+}
+.register_form .safe ul li:nth-child(4){
+  background: #f79100;
+}
+.register_form li:nth-child(5){
+  padding-left: 100px;
+  vertical-align: middle;
+  margin-bottom: 42px;
+}
+.register_form li:nth-child(6){
+  padding-left: 100px;
+  margin-bottom: 52px;
+}
+.register_form li:nth-child(6) button{
+  width: 300px;
+  height: 34px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #c81623;
+}
+.err{
+  color: #df3033;
+  font-size: 12px;
+}
+.err_icon{
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: url(../images/error.png) no-repeat;
+}
+.success{
+  color: #40b83f;
+  font-size: 12px;
+}
+.success_icon{
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: url(../images/success.png) no-repeat;
+}
+/* 底部 footer */
+.footer{
+  background:#fff;
+}
